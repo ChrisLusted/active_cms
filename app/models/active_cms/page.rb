@@ -6,7 +6,7 @@ module ActiveCms
     extend FriendlyId
     friendly_id :make_slug, :use => :slugged
     
-    default_scope :order => :lft
+    #default_scope :order => :lft
     
     #has_ancestry
     acts_as_nested_set
